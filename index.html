@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>
+            Train Time
+        </title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="card text-left">
+                <div class="card-header">
+                    Current Train Schedule
+                </div>
+                <div class="card-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Train Name</th>
+                                <th scope="col">Destination</th>
+                                <th scope="col">Frequency (min)</th>
+                                <th scope="col">Next Arrival</th>
+                                <th scope="col">Minutes Away</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>The hype train</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="card text-left">
+                <div class="card-header">
+                    Add Train
+                </div>
+
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="input-name">Train Name</label>
+                            <input type="text" class="form-control" id="input-name">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="input-destination">Destination</label>
+                            <input type="text" class="form-control" id="input-destination">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="input-time">First Train Time</label>
+                            <input type="time" class="form-control" id="input-time">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="input-frequency">Frequency (min)</label>
+                            <input type="text" class="form-control" id="input-frequency">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
